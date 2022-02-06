@@ -58,7 +58,7 @@ class Board:
         self.gameArea.grid()
     
     def removeWindow(self):
-        self.window.quit()
+        self.window.destroy()
 
     def reverse(self):
         for ind in range(4):
@@ -93,6 +93,7 @@ class Board:
                     self.gridCell[i][j] *= 2
                     self.gridCell[i][j + 1] = 0
                     self.score += self.gridCell[i][j]
+                    self.window.title('2048 Game, score = ' + str(self.score))
                     self.merge = True
 
     def random_cell(self):
