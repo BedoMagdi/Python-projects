@@ -26,7 +26,7 @@ restaurant_data = [['german', "Esther's German Saloon", '3', '3', '22 Teutonic A
                    ['mexican', 'Taqueria', '3', '3', '12 North Circle Dr.'],
                    ['mexican', "Pedro's", '4', '5', '5521 Alameda'],
                    ['chinese', 'Super Wonton Express', '2', '1', '223 Milliways Ave'],
-                   ['indian', 'Naan Sequitur', '5', '4', '"Unit 12'],
+                   ['indian', 'Naan Sequitur', '5', '4', 'Unit 12'],
                    ['japanese', 'Sakura', '3', '2', '"Unit 18'],
                    ['chinese', 'Shandong Lu', '4', '3', '335 University'],
                    ['indian', 'Curry Galore', '3', '2', '56 Park Ave'],
